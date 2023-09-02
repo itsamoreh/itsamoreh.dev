@@ -1,0 +1,13 @@
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore dependencies
+node_modules/
+
+# ignore built style.css
+style.css
+
+# ignore build files
+build/
