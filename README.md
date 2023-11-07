@@ -10,9 +10,8 @@ This is a barebones WordPress block theme starter. Use it to build your next blo
 
 1. Make sure you're on node version `18.12.1` or later.
 1. Run `npm install` from this directory to install dependencies.
-1. Run `npm run watch` to watch [CSS](#css), [JavaScript](#editor-and-frontend-javascript),
-   and [Custom Blocks](#custom-blocks).
-1. Optionally follow the [local environment](#optional-local-environment) 
+1. Run `npm run watch` to watch [CSS](#css), and [JavaScript](#editor-and-frontend-javascript).
+1. Optionally follow the [local environment](#optional-local-environment)
    instructions below to spin up a wp-env environment.
 
 ## CSS
@@ -54,33 +53,6 @@ terminal:
 
 ```bash
 npm run watch:js
-```
-
-## Custom Blocks
-
-This theme uses wp-scripts to build custom Gutenberg blocks. Add your custom
-blocks in the `blocks/` directory. Each block should have its own directory.
-
-To build the blocks, run the following command in your terminal:
-
-```bash
-npm run build:blocks
-```
-
-This will take all of your blocks inside `blocks/`, build them with wp-scripts
-and output them to `build/blocks/` directory. Make sure to enqueue the built
-blocks in the theme like this:
-
-```php
-// functions.php
-include get_template_directory() . '/build/blocks/block-name/index.php';
-```
-
-To watch for changes to your blocks and automatically rebuild, run the following
-command in your terminal:
-
-```bash
-npm run watch:blocks
 ```
 
 ## Optional Local Environment
