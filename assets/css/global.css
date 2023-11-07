@@ -85,7 +85,7 @@ textarea {
 .wp-site-blocks {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100svh;
 
 	.site-footer {
 		margin-top: auto;
@@ -93,5 +93,5 @@ textarea {
 }
 
 .admin-bar .wp-site-blocks {
-	min-height: calc(100vh - 32px);
+	min-height: calc(100svh - 32px);
 }
