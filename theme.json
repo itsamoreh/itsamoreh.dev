@@ -59,16 +59,15 @@
 			"lineHeight": {
 				"100": "100%",
 				"110": "110%",
-				"120": "120%",
-				"130": "130%"
+				"150": "150%"
 			},
 			"spacing": {
 				"gap": "24px"
 			}
 		},
 		"layout": {
-			"contentSize": "1200px",
-			"wideSize": "1920px"
+			"contentSize": "800px",
+			"wideSize": "1600px"
 		},
 		"shadow": {
 			"defaultPresets": false,
@@ -147,14 +146,14 @@
 			],
 			"fontSizes": [
 				{
+					"name": "Small",
+					"size": "0.75rem",
+					"slug": "small"
+				},
+				{
 					"name": "Body",
 					"size": "1rem",
 					"slug": "body"
-				},
-				{
-					"name": "H6",
-					"size": "1rem",
-					"slug": "h6"
 				},
 				{
 					"name": "H5",
@@ -188,6 +187,11 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/paragraph": {
+				"typography": {
+					"lineHeight": "var(--wp--custom--line-height--150)"
+				}
+			},
 			"core/button": {
 				"color": {
 					"background": "var(--wp--preset--color--black)",
@@ -505,7 +509,7 @@
 			"fontFamily": "var(--wp--preset--font-family--sans)",
 			"fontSize": "var(--wp--preset--font-size--body)",
 			"fontWeight": "var(--wp--custom--font-weight--regular)",
-			"lineHeight": "var(--wp--custom--line-height--130)"
+			"lineHeight": "var(--wp--custom--line-height--150)"
 		},
 		"css": "body strong {font-weight: var(--wp--custom--font-weight--bold);}"
 	},
