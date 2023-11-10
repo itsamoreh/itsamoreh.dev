@@ -5,7 +5,6 @@
  * before this comment.
  */
 
-@import "./global.css";
-
-@import-glob "./blocks/**/!(blocks).css";
-@import-glob "./patterns/**/!(patterns).css";
+@import-glob "./global/**/*.css";
+@import-glob "./blocks/**/*.css";
+@import-glob "./patterns/**/*.css";
