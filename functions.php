@@ -82,7 +82,7 @@ function enqueue_frontend_scripts() {
 	wp_enqueue_script( 'bts-frontend-js' );
 
 }
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_frontend_scripts' );
+// add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_frontend_scripts' );
 
 /**
  * Enqueue theme editor scripts.
