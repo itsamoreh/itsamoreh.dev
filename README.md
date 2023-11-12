@@ -1,10 +1,12 @@
-# Block Theme Starter
+# itsamoreh.dev WordPress block theme
 
 ![Theme screenshot](screenshot.png)
 
 ## What is this?
 
-This is a barebones WordPress block theme starter. Use it to build your next block theme!
+This is the WordPress block theme in use on my personal website (itsamoreh.dev](https://itsamoreh.dev).
+
+This theme was started from [itsamoreh/block-theme-starter](https://github.com/itsamoreh/block-theme-starter).
 
 ## Quick Start
 
