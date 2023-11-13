@@ -1,0 +1,14 @@
+/* Gutenberg Block Editor Styles
+---------------------------------------------------------------------------- */
+
+/* Adds some padding to the bottom of Gutenberg's main container. */
+.is-root-container {
+	padding-bottom: var(--wp--preset--spacing--small);
+}
+
+/* This will fix an issue in Gutenberg where inline code blocks become invisible when clicked. */
+code {
+	&[data-rich-text-format-boundary] {
+		background-color: var(--wp--preset--color--black) !important;
+	}
+}
