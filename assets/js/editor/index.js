@@ -1,1 +1,1 @@
-
+import './block-variations';

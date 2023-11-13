@@ -1,0 +1,7 @@
+.wp-block-code {
+	&.is-style-wrap {
+		code {
+			white-space: initial !important;
+		}
+	}
+}
