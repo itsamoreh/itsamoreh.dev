@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This is the WordPress block theme in use on my personal website (itsamoreh.dev](https://itsamoreh.dev).
+This is the WordPress block theme in use on my personal website [itsamoreh.dev](https://itsamoreh.dev).
 
 This theme was started from [itsamoreh/block-theme-starter](https://github.com/itsamoreh/block-theme-starter).
 
