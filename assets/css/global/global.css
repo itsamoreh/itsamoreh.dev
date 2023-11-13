@@ -30,6 +30,7 @@ strong {
 code {
 	margin: 0 2px;
 	padding: 2px 4px;
+	font-family: var(--wp--preset--font-family--monospace);
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--black);
 }
