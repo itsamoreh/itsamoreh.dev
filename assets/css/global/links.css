@@ -1,0 +1,17 @@
+a {
+	text-decoration: underline 0.1em;
+	text-underline-offset: 0.1em;
+	transition: text-underline-offset 100ms;
+
+	code {
+		text-decoration: underline;
+	}
+
+	&:hover {
+		text-underline-offset: 0.14em;
+
+		code {
+			text-decoration: none;
+		}
+	}
+}
