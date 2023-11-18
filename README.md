@@ -18,29 +18,16 @@ This theme was started from [itsamoreh/block-theme-starter](https://github.com/i
 
 ## CSS
 
-This theme uses PostCSS to process CSS. The main CSS entrypoint is
-`assets/main.css`. All CSS with be compiled to `style.css` which is enqueued in
-`functions.php` **for both the editor and the frontend**.
-
-To build the CSS, run the following command in your terminal:
-
-```bash
-npm run build:css
-```
-
-This will take the `assets/main.css` file, run it and all imports through
-PostCSS, and output the result to style.css. To watch for changes to your CSS
-and automatically rebuild, run the following command in your terminal:
-
-```bash
-npm run watch:css
-```
+This theme uses PostCSS. The main CSS entrypoint is `assets/main.css`.
+All CSS is imported in `assets/js/editor/index.js` and
+`assets/js/frontend/index.js`, built with the rest of the build files then
+enqueued in `functions.php` **for both the editor and the frontend**.
 
 ## Editor and Frontend JavaScript
 
 This theme uses wp-scripts to build editor and frontend JS. The main editor
 entry is at `assets/js/editor/index.js` and the main frontend entry is at
-`assets/js/frontend/index.js`.
+`assets/js/frontend/index.js`. CSS is imported in the JS files.
 
 To build the JS, run the following command in your terminal:
 

@@ -1,1 +1,1 @@
-import './hello-world.js';
+import '../../css/main.css';
