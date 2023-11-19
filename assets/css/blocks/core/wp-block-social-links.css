@@ -1,35 +1,54 @@
 .wp-block-social-links {
-	.wp-block-social-link {
-		a {
-			/* TODO: These are copied from links.css, make them the same. */
-			font-size: var(--wp--preset--font-size--body);
-			text-decoration: underline
-				color-mix(
-					in srgb,
-					var(--wp--preset--color--white) 75%,
-					var(--wp--preset--color--black) 25%
-				)
-				0.12em !important;
+	&.has-small-icon-size {
+		font-size: var(--wp--preset--font-size--small);
 
-			&:hover,
-			&:focus,
-			&:active {
-				outline: none;
-				text-decoration: underline currentColor 0.12em !important;
-			}
-
-			span,
-			span:not(.screen-reader-text) {
-				font-size: var(--wp--preset--font-size--body);
-			}
+		span,
+		span:not(.screen-reader-text) {
+			font-size: var(--wp--preset--font-size--small);
 		}
+	}
 
+	&.has-normal-icon-size {
+		font-size: var(--wp--preset--font-size--body);
+
+		span,
+		span:not(.screen-reader-text) {
+			font-size: var(--wp--preset--font-size--body);
+		}
+	}
+
+	&.has-large-icon-size {
+		font-size: var(--wp--preset--font-size--h-5);
+
+		span,
+		span:not(.screen-reader-text) {
+			font-size: var(--wp--preset--font-size--h-5);
+		}
+	}
+
+	&.has-huge-icon-size {
+		font-size: var(--wp--preset--font-size--h-4);
+
+		span,
+		span:not(.screen-reader-text) {
+			font-size: var(--wp--preset--font-size--h-4);
+		}
+	}
+
+	.wp-block-social-link {
 		&:hover {
 			transform: none;
 		}
 	}
 
 	@media (max-width: 480px) {
+		gap: 16px;
+
+		.wp-social-link svg {
+			width: 1.777rem !important;
+			height: 1.777rem !important;
+		}
+
 		.wp-block-social-link-label {
 			display: none;
 		}
