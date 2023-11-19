@@ -12,16 +12,6 @@ html {
 	font-size: 18px;
 }
 
-a,
-button,
-input:focus,
-input[type="button"],
-input[type="submit"],
-textarea:focus,
-.wp-element-button {
-	transition: all 0.2s ease-in-out;
-}
-
 b,
 strong {
 	font-weight: var(--wp--custom--font-weight--bold);
