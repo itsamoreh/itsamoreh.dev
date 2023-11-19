@@ -1,17 +1,24 @@
-a {
-	text-decoration: underline 0.1em;
+a,
+.wp-block-navigation-item a {
+	text-decoration: underline
+		color-mix(
+			in srgb,
+			var(--wp--preset--color--white) 75%,
+			var(--wp--preset--color--black) 25%
+		)
+		0.12em;
 	text-underline-offset: 0.1em;
-	transition: text-underline-offset 100ms;
+	/* transition: text-decoration 1s; */
 
-	code {
-		text-decoration: underline;
+	&:hover,
+	&:focus,
+	&:active {
+		outline: none;
+		text-decoration: underline currentColor 0.12em;
 	}
 
-	&:hover {
-		text-underline-offset: 0.14em;
-
-		code {
-			text-decoration: none;
-		}
+	&:focus-visible {
+		outline: 3px dashed currentColor;
+		outline-offset: 2px;
 	}
 }
