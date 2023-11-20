@@ -4,4 +4,10 @@
 			white-space: pre-wrap !important;
 		}
 	}
+
+	code {
+		&::-webkit-scrollbar {
+			display: none; /* Hide scrollbars on some browsers */
+		}
+	}
 }
