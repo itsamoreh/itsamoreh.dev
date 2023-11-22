@@ -17,6 +17,10 @@ strong {
 	font-weight: var(--wp--custom--font-weight--bold);
 }
 
+p {
+	text-wrap: pretty;
+}
+
 code {
 	margin: 0 2px;
 	padding: 2px 4px;
