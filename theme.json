@@ -118,7 +118,7 @@
 			"dropCap": false,
 			"fluid": true,
 			"fontStyle": false,
-			"fontWeight": false,
+			"fontWeight": true,
 			"letterSpacing": false,
 			"lineHeight": false,
 			"textDecoration": false,
