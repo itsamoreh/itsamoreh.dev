@@ -454,7 +454,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--body)"
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)"
 				}
 			},
 			"cite": {
