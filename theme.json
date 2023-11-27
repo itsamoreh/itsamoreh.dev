@@ -87,7 +87,12 @@
 		"spacing": {
 			"spacingSizes": [
 				{
-					"name": "Extra Extra Small",
+					"name": "Tiny",
+					"size": "4px",
+					"slug": "tiny"
+				},
+				{
+					"name": "XXSmall",
 					"size": "8px",
 					"slug": "xx-small"
 				},
@@ -115,6 +120,16 @@
 					"name": "Extra Large",
 					"size": "64px",
 					"slug": "x-large"
+				},
+				{
+					"name": "XXLarge",
+					"size": "96px",
+					"slug": "xx-large"
+				},
+				{
+					"name": "Huge",
+					"size": "128px",
+					"slug": "huge"
 				}
 			],
 			"units": ["%", "px", "em", "rem", "vh", "vw"]
@@ -125,7 +140,7 @@
 			"fontStyle": false,
 			"fontWeight": true,
 			"letterSpacing": false,
-			"lineHeight": false,
+			"lineHeight": true,
 			"textDecoration": false,
 			"fontFamilies": [
 				{
