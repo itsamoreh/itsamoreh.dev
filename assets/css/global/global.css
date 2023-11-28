@@ -23,8 +23,15 @@ p {
 
 ul,
 ol {
-	li:not(:first-child) {
-		margin-top: var(--wp--custom--spacing--gap);
+	li {
+		margin-block-start: var(--wp--custom--spacing--gap);
+	}
+
+	ul,
+	ol {
+		li {
+			margin-block-start: var(--wp--preset--spacing--x-small);
+		}
 	}
 }
 
