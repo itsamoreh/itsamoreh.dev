@@ -21,6 +21,13 @@ p {
 	text-wrap: pretty;
 }
 
+ul,
+ol {
+	li:not(:first-child) {
+		margin-top: var(--wp--custom--spacing--gap);
+	}
+}
+
 code {
 	margin: 0 2px;
 	padding: 2px 4px;
