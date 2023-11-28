@@ -6,7 +6,7 @@ button,
 	text-decoration-color: color-mix(
 		in srgb,
 		var(--wp--preset--color--white) 75%,
-		var(--wp--preset--color--black) 25%
+		var(--wp--preset--color--accent) 25%
 	);
 	text-decoration-thickness: 0.12em;
 	text-underline-offset: 0.1em;
@@ -23,11 +23,11 @@ button,
 		text-decoration-color: color-mix(
 			in srgb,
 			var(--wp--preset--color--white) 75%,
-			var(--wp--preset--color--black) 25%
+			var(--wp--preset--color--accent) 25%
 		);
 		text-decoration-thickness: 0.12em;
 		text-underline-offset: 0.1em;
-		text-decoration-color: currentColor;
+		text-decoration-color: var(--wp--preset--color--accent);
 	}
 
 	&:focus-visible {
